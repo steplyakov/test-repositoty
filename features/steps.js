@@ -1,7 +1,4 @@
 var chai = require('chai');
-// var chaiAsPromised = require('chai-as-promised');
-// chai.use(chaiAsPromised);
-
 var expect = chai.expect;
 
 
@@ -20,5 +17,6 @@ module.exports = function() {
   this.Then(/^I should see a "([^"]*)" button$/, function (arg, callback) {
       expect(browser.isElementPresent(by.id(arg)));
       callback();
+      browser.quit();
   });
 };

@@ -8,7 +8,5 @@ exports.config = {
     'browserName': 'phantomjs'
   },
 
-  framework: 'cucumber',
-  restartBrowserBetweenTests: 'true'
-
+  framework: 'cucumber'
 };

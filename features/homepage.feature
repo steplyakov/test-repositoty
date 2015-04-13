@@ -4,6 +4,6 @@ Feature: Homepage
   So I can see first page with all buttons, inputs, links
 
   Scenario: Checking buttons are presented
-    Given I am on the homepage
+    Given I go to "https://www.odesk.com/"
     Then I should see a "signup" button
     And I should see a "login" button

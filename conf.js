@@ -8,8 +8,7 @@ exports.config = {
     'browserName': 'phantomjs'
   },
 
-  baseUrl: 'http://localhost:8081/',
-
   framework: 'cucumber',
+  restartBrowserBetweenTests: 'true'
 
 };

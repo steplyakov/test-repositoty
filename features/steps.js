@@ -17,6 +17,5 @@ module.exports = function() {
   this.Then(/^I should see a "([^"]*)" button$/, function (arg, callback) {
       expect(browser.isElementPresent(by.id(arg)));
       callback();
-      browser.quit();
   });
 };
